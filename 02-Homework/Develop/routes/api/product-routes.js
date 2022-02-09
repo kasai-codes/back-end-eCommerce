@@ -6,11 +6,16 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 // get all products
 router.get('/', (req, res) => {
   // find all products
-  // be sure to include its associated Category and Tag data
+ // be sure to include its associated Category and Tag data
+ 
+ res.json({success:true, hit:"get products"});
+
 });
 
 // get one product
 router.get('/:id', (req, res) => {
+
+  res.json({success:true, hit:"get products"});
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
 });
@@ -90,6 +95,7 @@ router.put('/:id', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => {
+  res.json({success:true, hit:"delete products"});
   // delete one product by its `id` value
 });
 
