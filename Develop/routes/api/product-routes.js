@@ -20,7 +20,7 @@ router.get("/", async (req, res) => {
 });
 
 // get one product
-router.get("/:id", (req, res) => {
+router.get("/:id", async (req, res) => {
   res.json({ success: true, hit: "get products" });
   // find a single product by its `id`
   try {
@@ -112,7 +112,7 @@ router.put("/:id", (req, res) => {
     });
 });
 
-router.delete("/:id", (req, res) => {
+router.delete("/:id", async (req, res) => {
   res.json({ success: true, hit: "delete products" });
   try {
 		const productData = await Product.destroy({
