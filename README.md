@@ -8,7 +8,6 @@
 * [Intsallation](#intsallation)
 * [Technologies](#technologies)
 * [Preview](#preview)
-* [Deployed](#deployed)
 
 ## User Story
 
@@ -22,7 +21,7 @@ SO THAT my company can compete with other e-commerce companies
 
 Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes.
 
-This application allows users
+This application allow the user to add , delete, and/or update their products (price, stock, id, product name). With tag id's being associated with certain catagories and prodcuts makes it less painful for a cumter to find products that they are searching for.
 
 ## Intsallation
 
@@ -30,7 +29,7 @@ Type the following command into your terminal to start the application:
 
 - npm i
 - source schema file
-- node run seed
+- npm run seed
 - npm start
 
 
@@ -46,9 +45,5 @@ Type the following command into your terminal to start the application:
 
 ## Preview
 
-<a href="https://www.loom.com/share/bb7c3f2cffa54e5c94ffabfd8a58e447">
-    <p>Click here to watch full video</p>
-    <img style="max-width:666px;" src="https://cdn.loom.com/sessions/thumbnails/bb7c3f2cffa54e5c94ffabfd8a58e447-with-play.gif">
-  </a>
-
+[Preview video](https://www.loom.com/share/42178d77a58144f8a811fa6511172878)
 
